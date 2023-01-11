@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajout eleve</title>
+    <link rel="stylesheet" href="projet.css" >
+  </head>
+  <body>
+    <h1> Ajouter un élève : </h1>
+    <h2> Merci de rentrer toutes les informations demandées</h2>
+    <form action="ajouter_eleve.php" method="post">
+      <label for="prenom"> Prénom : </label><br>
+      <INPUT type="text" name="prenom" id="prenom"> <br>
+      <label for="nom"> Nom : </label><br>
+      <INPUT type="text" name="nom" id="nom"> <br>
+      <label for="datenais"> Date de naissance : </label><br>
+      <INPUT type="date" name="datenais" id="datenais" min="1922-01-01">
+      <br><input type="submit" value="envoi">
+    </form>
+  </body>
+</html>

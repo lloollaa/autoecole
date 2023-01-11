@@ -1,0 +1,146 @@
+body {
+  background-color: #CACFD6;
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  color: #2D3319;
+  background-color: #9FD8CB;
+  border-radius: 10px;
+  font-family : Verdana, Trebuchet MS, Times New Roman;
+  font-size : 25px;
+}
+
+h1 {
+  color: #2D3319;
+  background-color: #077187;
+  border-radius: 10px;
+  font-family : Verdana, Trebuchet MS, Times New Roman;
+  font-size: 35px;
+}
+
+#nombre{
+  width : 4em;
+}
+
+.table{
+  display: inline-table;
+  border-collapse: collapse;
+  text-align: left;
+  width : 80%;
+  border : 1px solid #2D3319;
+  font-family : Verdana, Trebuchet MS, Times New Roman;
+}
+
+.table td, .table th {
+  padding: 8px;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #D6E5E3;
+  color: #2D3319;
+}
+
+a:link {text-decoration: none; color: #2D3319;}
+a:visited {text-decoration: none; color: #2D3319;}
+a:hover {text-decoration: none; color: inherit; font-weight: bolder; }
+a:active {text-decoration: none; color: #2D3319;}
+
+p {
+  color : #2D3319;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family : Verdana, Trebuchet MS, Times New Roman;
+  font-size : 20px;
+}
+
+input[type=submit], input[type=button]{
+  cursor: pointer;
+  border-width : thin;
+  border-radius: 10px;
+  margin: 15px 5px;
+  padding: 10px 12px;
+  background-color : #D6E5E3;
+  font-size : 15px;
+}
+
+input[type=submit]:hover {
+  background-color: #9FD8CB;
+  transform: translate(-4px, -4px);
+}
+
+input[type=button]:hover {
+  background-color: #9FD8CB;
+  transform: translate(-4px, -4px);
+}
+
+input[type=text],input[type=date],input[type=number]  {
+  border : none;
+  border-bottom: 1px solid #2D3319;
+  margin: 10px 5px;
+  padding: 10px 12px;
+}
+
+input[type=text]:focus {
+  border:1px solid #2D3319;
+}
+
+input[type=date]:focus {
+  border:1px solid #2D3319;
+}
+
+input[type=number]:focus {
+  border:1px solid #2D3319;
+}
+
+.bouton{
+ cursor: pointer;
+ padding : 10px;
+ border-radius : 10px;
+ margin-top: 10px
+}
+
+.bouton:link {
+text-decoration: none;
+color: #2D3319;
+background-color : #D6E5E3;
+}
+
+.bouton:visited {text-decoration: none; color: #2D3319;}
+
+.bouton:hover {
+text-decoration: none;
+color: inherit;
+background-color: #9FD8CB;
+}
+
+textarea {
+    padding: 10px;
+    margin : 10px 2px;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 1px solid #2D3319;
+    resize : none;
+}
+
+img{
+  max-width: 45%;
+  height: auto;
+}
+
+label {
+  color : #2D3319;
+  font-family : Verdana, Trebuchet MS, Times New Roman;
+  font-size : 20px;
+  line-height: 50px;
+}
+
+.label{
+  color : #2D3319;
+  font-family : Verdana, Trebuchet MS, Times New Roman;
+  font-size : 20px;
+  line-height: 50px;
+}
