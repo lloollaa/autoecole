@@ -26,6 +26,7 @@
 
     //sélection des élèves inscrits à cette séance
     while ($row1 = mysqli_fetch_array($result1, MYSQLI_NUM)){
+      // il aurait fallu faire un code qui update la note si elle a déjà été rentrée mais qu'on la rentre une autre fois vide (qui retourne à -1)
         $nb_fautes = $_POST["nbfautes_$row1[1]"];
         if (empty($nb_fautes)){ // prévient si un élève n'a pas été noté
           echo "<p> Au moins un élève n'a pas été noté !</p>";
