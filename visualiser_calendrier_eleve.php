@@ -46,10 +46,11 @@
     //renvoie une table qui récapitule les informations des séances
     echo "<table class='table'>";
     echo "<tr><th>Thème de la séance</th> <th>Date de la séance</th></tr>";
-    echo "<tr>";
     while ($row = mysqli_fetch_array($result, MYSQLI_NUM)){
-        echo "<td>$row[8]</td>";
-        echo "<td>$row[4]</td>";
+      echo "<tr>";
+      echo "<td>$row[8]</td>";
+      echo "<td>$row[4]</td>";
+      echo "</tr>";
       }
     echo"</table>";
 
