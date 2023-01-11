@@ -52,8 +52,8 @@
       echo "<td>$row[4]</td>";
       echo "</tr>";
       }
-    echo"</table>";
-
+    echo "</table>";
+    echo "<br">;
   }
 
   // boutons pour naviguer entre les tables
