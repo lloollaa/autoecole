@@ -72,7 +72,7 @@
       exit;
     }
     // insère l'élève dans la base de données
-    $query = "INSERT INTO eleves VALUES (NULL,"."'$nom'".", "."'$prenom'".", "."'$datenais'".", "."'$date'".")";
+    $query2 = "INSERT INTO eleves VALUES (NULL,"."'$nom'".", "."'$prenom'".", "."'$datenais'".", "."'$date'".")";
     $result2 = mysqli_query($connect, $query2);
     if (!$result2){
       echo "<p>La requête n'a pas pu aboutir</p>".mysqli_error($connect);
